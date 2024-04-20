@@ -1,2 +1,2 @@
-# html1
+# Galeria_Arte
 prueba de html
