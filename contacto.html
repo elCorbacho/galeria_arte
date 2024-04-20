@@ -1,0 +1,72 @@
+<!DOCTYPE html><!--CONTACTO--><!--CONTACTO--><!--CONTACTO--><!--CONTACTO--><!--CONTACTO--><!--CONTACTO-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de arte El hospital</title>
+<style>
+</style>
+
+</head>
+<body style="font-family: tahoma;">
+    <div style="background-color: aqua;">
+        <br>
+        <h1 style="text-align: center">Galeria de arte "El Hospital" - Contacto</h1>
+        <br>
+    </div>
+    
+    <hr>
+
+    <div class="indice">
+        <table class="tablaindice" style="margin-left:auto;margin-right:auto">
+            <tr>
+                <td><h2 style="text-align: center"><a href="index.html"> Inicio </a></h2></td>
+                <td><p>||</p></td>
+                <td><h2 style="text-align: center"><a href="galeria.html">Galería</a></h2></td>
+                <td><p>||</p></td>
+                <td><h2 style="text-align: center"><a href="contacto.html">Contacto</a></h2></td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+    <br>
+
+    <div class="formulario">
+        <h2><b>Contáctanos</b></h2>
+        <form method="post">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Escriba su nombre" required>
+            <br>
+            <label for="Apellidos">Apellidos</label>
+            <input type="text" name="Apellidos" id="Apellidos" placeholder="Escriba sus Apellidos" required>
+            <br>
+            <label for="Direccion">Direccion</label>
+            <input type="text" name="Direccion" id="Direccion" placeholder="Indiquenos su direccion" required>
+            <br>
+            <label for="celular">numero de contacto</label>
+            <input type="tel" name="celular" id="celular" placeholder="Escriba sus nº de contacto  " required>
+            <br>
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email" placeholder="Escriba su correo electronico" minlength="3" maxlength="64" required>
+            <br><br>
+            <label for="seleccion">Indiquenos el motivo de su contacto</label>
+            <select name="seleccion" id="seleccion" required>
+                <option value="">---Indique una opcion</option>
+                <option value="1">Compra</option>
+                <option value="2">Consulta</option>
+                <option value="3">Venta</option>
+            </select>
+            <br>
+            <br>
+            <label for="comentario">Indiquenos detalles respecto a su peticion</label>
+            <textarea name="comentario" id="comentario" cols="50" rows="5" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <footer><p style="text-align: center;">Galeria de arte "el hospital" por Andres Corbacho</p></footer>
+
+</body>
+</html>
